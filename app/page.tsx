@@ -1,5 +1,5 @@
-'use client';
-import { motion } from '@motionone/react';
+'use client'; 
+import { motion } from 'motion/react';
 const projects=[['01','LAUDEM-OS','Building an operating system for a performing arts institution.'],['02','LOCAL AI AGENT','Testing how capable private, local AI coding agents can become.'],['03','ZAH MEDIA','Building better systems for photography and creative production.']];
 const writing=[['BUILD','I built my first local AI agent. Here’s what I learned.'],['BUSINESS','Why we’re building our own operating system instead of buying one.'],['JOURNAL','I started as a music teacher. Now I’m building the systems behind the business.']];
 export default function Home(){return <main>
